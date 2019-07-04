@@ -1,0 +1,258 @@
+.header {
+    display: flex;
+    box-sizing: border-box;
+    background: #004A80;
+    height: 65px;
+    width: 100%;
+    overflow: auto;
+
+}
+
+.principal {
+    background: #004A80;
+    width: 100%;
+    box-sizing: border-box;
+    height: auto;
+}
+
+.navbar {
+    position: absolute;
+    float: left;
+    padding: 15px 0 0 20px;
+    display: inline-flex;
+    width: 100%;
+    overflow: auto;
+}
+
+.logo {
+    width: 173px;
+    height: 25px;
+    display: inline-flex;
+}
+
+
+.navbar-col {
+    display: inline-flex;
+    object-position: right;
+    align-items: center;
+}
+
+.nav-items {
+    position: absolute;
+    display: inline-block;
+    float: none;
+    right: 6em;
+    width: auto;
+}
+
+.search-icon {
+    width: 23px;
+    height: 23px;
+}
+
+.person-icon {
+    height: 23px;
+    width: 23px;
+}
+
+.searchEA {
+    padding-left: 25%;
+    padding-right: 16%;
+    padding-top: 7.7%;
+    font-display: auto;
+    text-align: center;
+}
+
+.saea {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 50px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+    position: 230px 95px;
+    width: 700px;
+}
+
+.validate-email {
+    background: #FFFFFF;
+    box-shadow: inset 0 -1px 4px 0 rgba(0, 0, 0, 0.20);
+    border-radius: 3px;
+    height: 30px;
+    width: 500px;
+}
+
+.checkEm {
+    background-image: linear-gradient(225deg, #F2DA56 0%, #F6BC25 100%);
+    box-shadow: 0 3px 0 0 #A6953B, inset 0 1px 0 0 #FFFFFF;
+    border-radius: 6px;
+    height: 35px;
+}
+
+.lock {
+    width: 15px;
+    height: 19px;
+}
+
+.ent-email {
+    font-family: HelveticaNeue-Bold, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #F6BC25;
+    letter-spacing: 0;
+    text-align: match-parent;
+}
+
+.main-content {
+    background-image: linear-gradient(0deg, #E6E6E6 0%, #FFFFFF 100%);
+    width: auto;
+    height: 58.3%;
+    width: 100%;
+}
+
+.rever {
+    text-align: center;
+}
+
+.rel {
+    font-family: HelveticaNeue-Bold, Helvetica, Arial, sans-serif;
+    font-size: 52px;
+    color: #004A80;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 70px;
+}
+
+.lor {
+    font-family: HelveticaNeue, Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    color: #4A4A4A;
+    letter-spacing: 0;
+    line-height: 30px;
+    padding-left: 16%;
+    padding-right: 16%;
+}
+
+.cont-table {
+    width: 100%;
+    margin: 2%;
+}
+
+.table-data {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+
+}
+
+tr,
+td {
+    text-align: left;
+    width: 100%;
+}
+
+.loremTit {
+    font-family: HelveticaNeue-Bold, Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    color: #004A80;
+    letter-spacing: 0;
+    width: 380px;
+    height: 26px;
+    width: 380px;
+    height: 26px;
+}
+
+.info {
+    font-family: HelveticaNeue, Helvetica;
+    font-size: 18px;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: 26px;
+
+}
+
+.numbers {
+    width: 90px;
+    height: 90px;
+}
+
+.page-footer {
+    background: #FFFFFF;
+    width: auto;
+    height: 5.5%;
+}
+
+.text {
+    font-family: HelveticaNeue, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    color: #999999;
+    letter-spacing: 0;
+    line-height: 20px;
+    width: 66.7%;
+    height: 3.3%;
+    padding-left: 2%;
+}
+
+.terms {
+    font-family: HelveticaNeue, Helvetica;
+    font-size: 14px;
+    color: #004A80;
+    letter-spacing: 0;
+    width: 7.2%;
+    height: 1.4%;
+    object-position: right;
+    padding-left: 84.4%;
+
+}
+
+
+/***********************RESULT STYLE*****************/
+
+.nav-result {
+    background: #F8F8F8;
+    width: auto;
+    height: 52.2%;
+}
+
+.show-result {
+    font-family: HelveticaNeue-Bold, Helvetica, Arial, sans-serif;
+    font-size: 52px;
+    color: #004A80;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+.look-result {
+font-family: HelveticaNeue, helvetica, arial, sans-serif;
+font-size: 24px;
+color: #000000;
+letter-spacing: 0;
+text-align: center;
+line-height: 32px;
+}
+
+.search-again {
+    background: #004A80;
+    width: auto;
+    height: 37%;
+}
+
+.refind {
+
+}
+
+.find-person {
+    font-family: HelveticaNeue-Bold, helvetica, arial, sans-serif;
+    font-size: 52px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+    height: 62px;
+}
+
+.try{
+    font-family: HelveticaNeue-Bold, helvetica, arial, sans-serif;
+font-size: 24px;
+color: #F6BC25;
+letter-spacing: 0;
+text-align: center;
+}
